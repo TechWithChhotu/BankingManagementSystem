@@ -16,7 +16,6 @@ import {
 userRoute.get("/create-branch-table", createBranchTable);
 userRoute.get("/create-loans-table", createLoansTable);
 userRoute.get("/create-atm-table", createATMTable);
-// userRoute.post("/create-account", createAccounts);
 
 userRoute.get("/getAllBranches", getAllBranches);
 userRoute.post("/add-branch", addBranch);

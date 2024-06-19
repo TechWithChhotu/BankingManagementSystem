@@ -1,8 +1,8 @@
 import oracledb from "oracledb";
 const poolConfig = {
-  user: "system", //Email-chhotustudymail@gmail.com
-  password: "123", //password- Chhotu@*#123// MskrckshK@123
-  connectString: "localhost/XEPDB1", //localhost/XEPDB1
+  user: process.env.ORACLE_USERNAME, //Email-chhotustudymail@gmail.com
+  password: process.env.ORACLE_PASSWORD, //password- Chhotu@*#123// MskrckshK@123
+  connectString: process.env.ORACLE_CONNECTION_STRING, //localhost/XEPDB1
   poolMin: 10,
   poolMax: 10,
   poolIncrement: 0,
