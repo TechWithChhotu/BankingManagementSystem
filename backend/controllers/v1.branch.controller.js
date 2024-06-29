@@ -2,7 +2,6 @@ import { v2 } from "cloudinary";
 import { Transaction, Account, Customer } from "../models/v1_models.mongoDB.js";
 import fs from "fs";
 import getNewAccountNumber from "./generateNewAccountNumber.js";
-import { type } from "os";
 
 const openAccount = async (req, res) => {
   try {

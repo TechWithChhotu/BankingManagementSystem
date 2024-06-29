@@ -4,6 +4,7 @@ import userRoute from "./routers/v1_user.routes.js";
 import cors from "cors";
 import branchRoute from "./routers/v1.branch.routes.js";
 import systemRoute from "./routers/v1.system.routes.js";
+import aadharRoutes from "./Aadhar/aadhar.routes.js";
 
 const app = express();
 
@@ -20,5 +21,6 @@ app.use(
 app.use("/api/v1/user/", userRoute);
 app.use("/api/v1/branch/", branchRoute);
 app.use("/api/v1/system/", systemRoute);
+app.use("/api/v1/aadhar/", aadharRoutes);
 
 export default app;

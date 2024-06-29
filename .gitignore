@@ -4,4 +4,6 @@
 
 # Ignore .env file in the backend directory
 backend/.env
+backend/data
+backend/Aadhar
 .env

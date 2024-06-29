@@ -1,4 +1,7 @@
 import oracledb from "oracledb";
+import { config } from "dotenv";
+config();
+
 const poolConfig = {
   user: process.env.ORACLE_USERNAME, //Email-chhotustudymail@gmail.com
   password: process.env.ORACLE_PASSWORD, //password- Chhotu@*#123// MskrckshK@123
